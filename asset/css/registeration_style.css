@@ -1,0 +1,73 @@
+.contact{
+    height: 10px;
+    padding: 0px;
+}
+.header .navbar{
+    opacity: 1;
+}  
+.header .registration{
+    width: 70%;
+    height: 75%;
+    color: #F8F9FA;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    z-index: 3;
+    border-radius: 7px;
+}
+.registration-form form{
+    width: 85%;
+    margin: 15px auto;
+    padding: 20px 0px;
+}
+.registration-form form div{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.registration-form form .valid label::after{
+    content: "*";
+    color: #ED563B;
+    font-size: 1.5rem;
+
+}
+.registration-form form input[type="radio"]{
+    margin: 0px 10px;
+}
+.registration-form form input[type="radio"]+label{
+    margin-right: 50px;
+}
+.registration-form form label {
+    width: 35%;
+    float: left;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.registration-form form input:not([type="radio"]){
+    width: 55%;
+    padding: 5px 10px; 
+    font-size: 1.5rem;
+}
+.registration-form form .btns{
+    width: 92%;
+    margin: 15px 0px;
+    padding-top: 15px;
+    display: flex;
+    justify-content:flex-end;
+}
+.registration-form form div .btn{
+    width: 20%;
+    margin: 0px 15px;
+    padding: 10px;
+    background-color: #ED563B;
+    color: #202833;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: solid 1px #ED563B;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.registration-form form div .btn:hover{
+    background-color: white;
+    color:  #ED563B;
+}
